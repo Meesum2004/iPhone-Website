@@ -1,283 +1,87 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color:#d2d4d6;
 }
-a{
-    text-decoration: none;
+.textbox{
+    margin-top: 200px;
+    margin-left: 150px;
 }
-header{
-    background-color: #434344;
-    color: #dadada;
-    text-align: center;
-    padding: 14px;
+h1{
+    font-size: 55px;
+    color: #0866ff;
+    font-family: Arial, Helvetica, sans-serif;
 }
-header nav ul li{
-    display: inline;
-    margin-left: 40px;
-}
-.hero{
-    background-image: url(https://www.apple.com/v/home/bi/images/heroes/apple-vision-pro/hero_apple_vision_pro__e8407ehady6i_mediumtall.jpg);
-    width: 100%;
-    margin:0px 17px 7px 10px;
-    padding: 470px 50px 5px 24px;
-    text-align: center;
-    background-position: center;
-}
-.links a{
-    text-decoration: none;
-    margin-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #1472d0;
-    font-size: 20px;
-}
-.hero p{
-    color: #6e6e73;
-    font-size: 21px;
-}
-.hero h3{
+h2{
     font-size: 28px;
-    color: #1d1d1f;
-    margin-top: 20px;
+    font-weight: normal;
+    width: 500px;
+    line-height: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero img{
-    margin-top: 20px;
-}
-.second{
-    background-image: url(https://www.apple.com/v/home/bi/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_mediumtall.jpg);
-    width: 100%;
-    background-position: center;
-    height: 600px;
-    color: #f5f5f7;
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 40px;
-}
-.second h1{
-    font-size: 52px;
-}
-.second h2{
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 20px;
-}
-.third{
-    background-image: url(https://www.apple.com/v/home/bi/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_mediumtall.jpg);
-    width: 100%;
-    background-position: center;
-    height: 600px;
-    margin-top: 20px;
-    padding-top: 40px;
-    text-align: center;
-} 
-.third h1{
- font-family: 'Roboto', sans-serif;;
- font-size: 52px;
-}  
-.third h2{
-    font-size: x-large;
-    padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;;
-}
-.main{
-    display: flex;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.box1{
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 49%;
-    background-color: black;
-    color: white;
-    background-image: url(https://www.apple.com/v/home/bi/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg);height: 600px;
-}
-.main .box1 img{
-    padding-top: 45px;
-}
-.main .box1 h3{
-    padding-top: 10px;
-    padding-bottom:  10px; ;
-}
-
-.box2{
-    background-image: url(https://www.apple.com/v/home/bi/images/promos/apple-watch-ultra-2/promo_apple_watch_ultra2_order__dyxqj5ia98om_small.jpg);
-    width: 49%;
-     margin: 20px;
+.container{
+    width: 400px;
+    height: 350px;
+    margin-top: -167px;
+    margin-right: 197px;
+    float: right;
+    border-radius: 12px;
     background-color: white;
-    color: black;
-    /* margin-bottom: 97px;
-    margin: 14px; */
-}
-.main1{
-    display: flex;
-    font-size: 17px;
-}
-.main a{
-    padding-top: 20px;
-}
-.main1 .box11{
-    font-family: Arial, Helvetica, sans-serif;
+    width: 390px;
+    height: 390px;
     text-align: center;
-    width: 49%;
-    margin-top: 20px;
-   margin-left: 20px;
-   margin-right: 20px; 
-   background-color: white;
-   color: black;
-   background-image: url(https://www.apple.com/v/home/bi/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium.jpg);
-   height: 600px;
-}
-.main1 .box22{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 49%;
-    margin-top: 20px;
-    margin-right: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
-   background-position: center;
-
-   color: black;
-  background-image: url(https://www.apple.com/v/home/bi/images/promos/apple-fitness-plus/promo_fitness_alt__ck26n46yeb2a_small.jpg);
-   height: 600px;
-}
-.main2{
-    display: flex;
-    text-align: center;
-    background-color: white;
-}
-.main2 .b1{
-    background-color: white;
-    color: black;
-    width: 49%;
-    text-align: center;
-    width: 49%;
-    margin-top: 20px;
-    margin-right: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
-   background-position: center;
-   background-image: url(https://www.apple.com/v/home/bi/images/promos/apple-card/tile__cauwwcyyn9hy_medium.jpg);
-   height: 500px;
-   background-position: center;
-
+    text-shadow: 10px 10px 10px gray(112, 112, 112);
 }
 
-.main2 .b2{
-    background-image: url(https://www.apple.com/v/home/bi/images/promos/apple-watch-ultra-2/promo_apple_watch_ultra2_order__dyxqj5ia98om_small.jpg);
-    width: 49%;
-     margin: 20px;
-    background-color: white;
-    color: black;
-    height: 600px;
-    padding-top: 20px;
-
-}
-
-.box2 b2{
-    
-   width: 400px;
-} 
-.box2 img{
-    padding-top: -8px;
-    padding-bottom: 10px;
-}
-.box2  h3{
-      padding-bottom: 10px;
-}
-.box2 back1{
-    padding-bottom: -10px;
-}
-.animal{
-    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/08RCyCOvu05COuc-qdDudQ/980x551.jpg);
-    height: 600px;
-    width: 100%;
-   margin: 20px 20px 20px 20px;
-}
-.content{
-    padding: 17px 0 11px;
-    display: block;
-    font: inherit;
-    font-size: 1em;
-    font-family:inherit ;
-    font-weight: inherit;
-    line-height: inherit;
-    letter-spacing: inherit;
-    text-align: inherit;
-    box-sizing: content-box;
-    margin: 0;
-    pointer-events: auto;
-    color: rgb(0 0 0 / 56%);
-}
-.foot{
-   color: rgb(118 118 119);
-   background-color: rgb(245 245 247);
-   margin-top: 20px;
-   margin-left: 20px;
-   font-size: 12px;
-}
-.foot li a{
-    color:black ;
-    text-decoration: underline;
-}
-footer div ul{
-    list-style: none;
-}
-.content .foot li{
-    padding-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.content{
-    padding: 17px 0 11px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 50px;
-    font-family: SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;;
-    
-}
-.footer{
-    font-family: Arial, Helvetica, sans-serif;
-   font-size: 15px;
-    color:#4e4e4f;
-    background-color: #f5f5f7;
-}
-.mainfooter{
-    border-top:2px solid #cececf;
-    padding-top: 20px;
-    display:flex;
-    justify-content: space-around;
-    padding-bottom: 25px;
-}
-.last{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    margin-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.last p a{
-    color: rgb(0 102 206);
-    text-decoration: underline;
-}
-.copyright{
-    border-top: 2px solid rgb(206 206 207);
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(89 89 90);
-    margin-left: 40px;
-    font-size: 12px;
-    padding-top: 20px;
-}
-.f2{
-    display: flex;
-    float: left;
-}
-.copyright{
-    display: inline-block;
-    /* float: left; */
-}
+.form{
   
+    float: right;
+    margin-right: 11px;
+    margin-top: 25px;
+    padding: 2px;
+    background-color: white;
 
-
-
-
+}
+.form input{
+    margin-top: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    color: gray;
+    width: 332px;
+}
+button{
+    margin-top: 15px;
+    background-color: #0866ff;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+p{
+    background-color: white;
+    font-size: 16px;
+    color: #0866ff;
+    margin-bottom: 18px;
+}
+p a{
+    color: #0866ff;
+    background-color: white;
+    text-decoration: none;
+    
+}
+.btn{
+    padding-top: 5px;
+    border-top: 2px solid #cececf;
+    background-color: white;
+    margin: left 10px; ;
+    margin-right: 10px ;
+}
+.btn button{
+    background-color: #42b72a;
+}
